@@ -42,7 +42,7 @@ func div(a, b int) (q, r int) {
 }
 
 /*
-go 语言中，多返回值得函数出了可以返回多个值，还可以同时返回值和错误信息
+go 语言中，多返回值得函数除了可以返回多个值，还可以同时返回值和错误信息
  */
 func myeval2(a, b int, op string) (int, error)  {
 	switch op {
